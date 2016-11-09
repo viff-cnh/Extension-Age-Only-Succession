@@ -20,13 +20,13 @@ Source: ..\src\bin\debug\Landis.Library.Cohorts.dll; DestDir: {#ExtDir}; Flags: 
 Source: ..\src\bin\debug\Landis.Library.AgeOnlyCohorts.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall replacesameversion
 
 ; Ancillary Files
-Source: docs\LANDIS-II Age-Only Succession v4.0 User Guide.pdf; DestDir: {#AppDir}\docs
+Source: docs\LANDIS-II Age-Only Succession v4.1 User Guide.pdf; DestDir: {#AppDir}\docs
 Source: examples\ecoregions.gis; DestDir: {#AppDir}\examples\age-only-succession
 Source: examples\initial-communities.gis; DestDir: {#AppDir}\examples\age-only-succession
 Source: examples\*.txt; DestDir: {#AppDir}\examples\age-only-succession
 Source: examples\*.bat; DestDir: {#AppDir}\examples\age-only-succession
 
-#define AgeOnlySucc "Age-only Succession 4.0.txt"
+#define AgeOnlySucc "Age-only Succession 4.1.1.txt"
 Source: {#AgeOnlySucc}; DestDir: {#LandisPlugInDir}
 
 [Run]
