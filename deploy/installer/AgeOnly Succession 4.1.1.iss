@@ -1,6 +1,6 @@
 #define PackageName      "Age Only Succession"
 #define PackageNameLong  "Age Only Succession"
-#define Version          "4.1"
+#define Version          "4.1.1"
 #define ReleaseType      "official"
 #define ReleaseNumber    "4"
 #define CoreVersion      "6.0"
