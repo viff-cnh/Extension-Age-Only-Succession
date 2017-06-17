@@ -25,15 +25,13 @@ Source: ..\..\src\bin\debug\Landis.Library.Cohorts.dll; DestDir: {#ExtDir}; Flag
 Source: ..\..\src\bin\debug\Landis.Library.AgeOnlyCohorts.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall replacesameversion
 
 
-; User Guides are no longer shipped with installer
-;Source: docs\LANDIS-II Age-Only Succession v4.1 User Guide.pdf; DestDir: {#AppDir}\docs
 
 
 
 ; Complete example for testing the extension
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\AgeOnly Succesion
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\AgeOnly Succesion
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\AgeOnly Succesion
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\AgeOnly Succesion; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\AgeOnly Succesion; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\AgeOnly Succesion; Flags: replacesameversion
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
