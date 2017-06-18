@@ -1,4 +1,4 @@
-Title:			README_AgeOnly Succession 4.1.1
+Title:			README_AgeOnlySuccession4.1.1
 Project:		LANDIS-II Landscape Change Model
 Project Component:	Extension-Age-Only-Succession
 Component Deposition:	https://github.com/LANDIS-II-Foundation/Extension-Age-Only-Succession
