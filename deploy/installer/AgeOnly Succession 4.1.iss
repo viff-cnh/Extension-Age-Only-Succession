@@ -1,6 +1,6 @@
 #define PackageName      "Age Only Succession"
 #define PackageNameLong  "Age Only Succession"
-#define Version          "4.1.1"
+#define Version          "4.1.2"
 #define ReleaseType      "official"
 #define ReleaseNumber    "4"
 #define CoreVersion      "6.0"
@@ -36,7 +36,7 @@ Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\AgeOnly Succesion; Flags:
 
 ; LANDIS-II identifies the extension with the info in this .txt file
 ; NB. New releases must modify the name of this file and the info in it
-#define InfoTxt "AgeOnly Succession 4.1.1.txt"
+#define InfoTxt "AgeOnly Succession 4.1.txt"
 Source: {#InfoTxt}; DestDir: {#LandisPlugInDir}
 
 
