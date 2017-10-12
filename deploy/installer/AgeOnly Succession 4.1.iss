@@ -1,6 +1,6 @@
 #define PackageName      "Age Only Succession"
 #define PackageNameLong  "Age Only Succession"
-#define Version          "4.1.2"
+#define Version          "4.1.3"
 #define ReleaseType      "official"
 #define ReleaseNumber    "4"
 #define CoreVersion      "6.0"
@@ -20,7 +20,7 @@ Source: ..\..\src\bin\debug\Landis.Extension.Succession.AgeOnly.dll; DestDir: {#
 
 ; Requisite auxiliary libraries
 ; NB. These libraries are used by other extensions and thus are never uninstalled.
-Source: ..\..\src\bin\debug\Landis.Library.Succession.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall replacesameversion
+Source: ..\..\src\bin\debug\Landis.Library.Succession-v5.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall replacesameversion
 Source: ..\..\src\bin\debug\Landis.Library.Cohorts.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall replacesameversion
 Source: ..\..\src\bin\debug\Landis.Library.AgeOnlyCohorts.dll; DestDir: {#ExtDir}; Flags: uninsneveruninstall replacesameversion
 
