@@ -13,11 +13,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-  <!-- XXX: replace the project references with nuget -->
-    <ProjectReference Include="../../landis-core-model/model/core/src/Core.csproj" />
-    <ProjectReference Include="../../Library-Age-Cohort/src/age cohort.csproj" />
-    <ProjectReference Include="../../Library-Base-Cohort/src/base-cohort.csproj" />
-    <ProjectReference Include="../../Library-Succession/src/library-succession.csproj" />
-    <ProjectReference Include="../../Library-Spatial/src/api/Landis_SpatialModeling.csproj" />
+    <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.Core" Version="1.0.0-CI00002" />
+    <PackageReference Include="Landis.Library.AgeOnlyCohorts" Version="1.0.0-CI00003" />
+    <PackageReference Include="Landis.Library.Cohorts" Version="1.0.0-CI00002" />
+    <PackageReference Include="Landis.Library.Succession-v5" Version="1.0.0-CI00004" />
   </ItemGroup>
 </Project>
